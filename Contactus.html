@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <title>Freshly.Fit</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  
+</head>
+<style>
+    .shadow-success {
+    box-shadow: 0 0.3rem 0.4rem #4f772d !important;
+  }
+  
+  .social-icons-container {
+    position: fixed; /* Keeps the container in the same spot while scrolling */
+    left: 0;         /* Aligns it to the left edge */
+    top: 40%;        /* Starts it halfway down the page */
+    transform: translateY(-50%); /* Adjusts it up by half its own height to center it vertically */
+    z-index: 1000;   /* Ensures it stays above other content */
+    display: flex;   /* Helps arrange the icons inside */
+    flex-direction: column; /* Stacks icons vertically */
+    padding: 10px;   /* Adds a little space from the edge (optional) */
+    
+}
+  </style>
+  
+  <body style="background-color: #e9f5db;">
+
+
+    <div class=" fixed-top">
+      <!-- <div class="container-fluid" style="background-color: rgb(113 44 249 / 95%);"> -->
+        <div class="container-fluid" style="background-color: #4f772d;">
+        <header class="d-flex flex-wrap justify-content-center py-3"><a href="Home.html"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+            <button type="button"
+                  class="btn btn-sm btn-light ms-5"><strong> Freshly.Fit</strong><i class="bi bi-cup-straw"></i>
+            </button></a>
+          <ul class="nav nav-pills pe-5">
+  
+  
+         <!--
+            <li class="nav-item dropdown px-2">
+  
+              <a class="nav-item dropdown-toggle btn btn-sm btn-light" href="#" data-bs-toggle="dropdown"
+                aria-expanded="false">Courses</a>
+              <ul class="dropdown-menu dropdown-menu-white">
+                <li><a class="dropdown-item" href="PilotCourses.html">Pilot Courses</a></li>
+                 <li><a class="dropdown-item" href="CabinCrewPilot.html">Cabin Crew Courses</a></li> 
+                <li><a class="dropdown-item" href="CadetPilotProgram.html">Cadet Pilot Programs</a></li>
+              </ul>
+            </li>
+  -->
+            <!-- <li class="nav-item"><a href="Resources.html"><button type="button"
+                  class="btn btn-sm btn-light">Resources</button></a></li>
+            <li class="nav-item px-2"><a href="Admission.html"><button type="button"
+                  class="btn btn-sm btn-light">Admission</button></a></li> -->
+            <li class="nav-item"><a href="Aboutus.html"><button type="button" class="btn btn-sm btn-light"><strong>About
+                  Us</strong></button></a></li>
+  
+            <li class="nav-item px-2"><a href="Contactus.html"><button type="button" class="btn btn-sm btn-light"><strong>Contact</strong></button></a></li>
+  
+  
+          </ul>
+        </header>
+      </div>
+    </div>
+  
+
+    <div class="container rounded-4 shadow-lg mb-4 bg-light" style="margin-top: 80px; padding-top: 20px; padding-bottom: 30px;">
+        <div class="row py-4">
+            <div class="col-md-6 col-12">
+
+              <div class="card border-none text-center h-100 shadow-success" style="background-color: #e9f5db;">
+                <div class="card-body">
+                  <h2>Contact Us</h2>
+                    <div class="py-2">
+                        <p class="mb-0"><strong><i class="bi bi-telephone"></i> Phone</strong></p>
+                        <p class="mb-0">+917877605886</p>
+                    </div>
+               
+                    <div class="py-2">
+                        <p class="mb-0"><strong><i class="bi bi-envelope"></i> Email Address</strong></p>
+                        <p class="mb-0">freshly.fit@gmail.com</p>
+                    </div>
+                
+                    <div class="py-2">
+                        <p class="mb-0"><strong><i class="bi bi-building"></i> Address</strong></p>
+                        <p class="mb-0">Vardhman Sampada</p>
+                        <p class="mb-0">Vaishali Nagar Jaipur</p>
+                    </div>
+
+
+                </div>
+              </div>
+                
+            </div>
+
+            <div class="col-md-6 col-12">
+                <h2 class="mb-4 text-center">Send Your Message</h2>
+                <form>
+                    <div class="mb-2 form-floating">
+                        <input type="text" class="form-control" id="name" placeholder="Enter Full Name">
+                        <label for="name" class="form-label">Full Name</label>
+                    </div>
+                    <div class="row">
+                      <div class="col-6">
+                        <div class="mb-2 form-floating">
+                          <input type="email" class="form-control" id="email" placeholder="Enter Your Email Address">
+                          <label for="email" class="form-label">Email Address</label>
+                          
+                      </div>
+                      
+                      </div>
+                      <div class="col-6">
+                        <div class="mb-2 form-floating">
+                          <input type="text" class="form-control" id="phone" placeholder="Enter Phone Number">
+                          <label for="phone" class="form-label">Phone Number</label>
+                          
+                      </div>
+                      </div>
+                    </div>
+                    
+                    <div class="mb-2 form-floating">
+                        <textarea type="text" class="form-control" id="message" rows="4" placeholder="Enter Your Message"></textarea>
+                        <label for="message" class="form-label">Message</label>
+                        
+                    </div>
+                    <button type="submit" class="btn w-100 text-white my-2" style="background-color: #4f772d;">Send</button>
+                </form>
+
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="social-icons-container">
+
+      <div class="card p-1 position-absolute" style="background-color: #4f772d">
+      <div class="row col-1">
+        <div class="col-3 text-center"><button class="btn btn-outline-light" href="#"><i class="bi bi-instagram"></i></button></div>
+        <div class="col-3 text-center my-1"><button class="btn btn-outline-light"><i class="bi bi-whatsapp"></i></button></div>
+        <div class="col-3 text-center"><button class="btn btn-outline-light"><i class="bi bi-linkedin"></i></button></div>
+        <div class="col-3 text-center my-1"><button class="btn btn-outline-light"><i class="bi bi-youtube"></i></button></div>
+      </div>
+    </div>
+    </div> 
+  
+  
+    <div class="container-fluid py-3" style="background-color: #4f772d">
+      <div class="row py-4">
+        <div class="col-lg-3 text-center text-white">
+          <h6 style="color: #ffb3c6">Freshly.Fit<i class="bi bi-cup-straw"></i></h6>
+          <p class="mb-0">Serving Fresh Juice</p>
+          <div class="row mt-0">
+            <div class="col-3 text-center"><i class="bi bi-instagram"></i></div>
+            <div class="col-3 text-center"><i class="bi bi-whatsapp"></i></div>
+            <div class="col-3 text-center"><i class="bi bi-linkedin"></i></div>
+            <div class="col-3 text-center"><i class="bi bi-youtube"></i></div>
+          </div>
+        </div>
+  
+        <div class="col-lg-3 text-center">
+          <h6 style="color: #ffb3c6" class=" ms-5">Services</h6>
+          <ul style="list-style-type: none;">
+            <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Cash On Delivery</a></li>
+            <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Free Home Delivery</a> </li>
+            <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Contact Us</a> </li>
+          </ul>
+        </div>
+  
+        <div class="col-lg-3 text-center">
+          <h6 style="color: #ffb3c6" class="ms-5">Juice</h6>
+          <ul style="list-style-type: none;">
+            <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Apple</a> </li>
+            <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Banana</a> </li>
+            <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Beatroot</a> </li>
+            <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Mosambi</a> </li>
+            <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Coconut</a> </li>
+            <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Pineapple</a> </li>
+            <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Pupaya</a> </li>
+            
+  
+          </ul>
+        </div>
+  
+        <div class="col-lg-3 text-center text-white">
+          <h6 style="color: #ffb3c6">Contact</h6>
+          <div class="py-1">
+            <p class="mb-0"><i class="bi bi-telephone"></i> +917877605886</p>
+          </div>
+  
+          <div class="py-1">
+            <p class="mb-0"><i class="bi bi-envelope"></i> freshly.fit@gmail.com</p>
+          </div>
+  
+          
+        </div>
+  
+      </div>
+    </div>
+  
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html> 
