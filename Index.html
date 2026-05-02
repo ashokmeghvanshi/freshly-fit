@@ -1,0 +1,799 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
+
+  <title>Freshly.Fit</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+</head>
+
+<style>
+  .shadow-success {
+    box-shadow: 0 0.3rem 0.4rem #4f772d !important;
+  }
+
+  .zoom {
+    transition: transform .09s;
+  }
+
+  .zoom:hover {
+    transform: scale(1.1);
+  }
+
+  .social-icons-container {
+    position: fixed; /* Keeps the container in the same spot while scrolling */
+    left: 0;         /* Aligns it to the left edge */
+    top: 40%;        /* Starts it halfway down the page */
+    transform: translateY(-50%); /* Adjusts it up by half its own height to center it vertically */
+    z-index: 1000;   /* Ensures it stays above other content */
+    display: flex;   /* Helps arrange the icons inside */
+    flex-direction: column; /* Stacks icons vertically */
+    padding: 10px;   /* Adds a little space from the edge (optional) */
+    
+}
+</style>
+
+<body style="background-color: #e9f5db;">
+
+
+  <div class=" fixed-top">
+    <!-- <div class="container-fluid" style="background-color: rgb(113 44 249 / 95%);"> -->
+      <div class="container-fluid" style="background-color: #4f772d;">
+      <header class="d-flex flex-wrap justify-content-center py-3"><a href="Home.html"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+          <button type="button"
+                class="btn btn-sm btn-light ms-5"><strong> Freshly.Fit</strong><i class="bi bi-cup-straw"></i>
+          </button></a>
+        <ul class="nav nav-pills pe-5">
+
+
+       <!--
+          <li class="nav-item dropdown px-2">
+
+            <a class="nav-item dropdown-toggle btn btn-sm btn-light" href="#" data-bs-toggle="dropdown"
+              aria-expanded="false">Courses</a>
+            <ul class="dropdown-menu dropdown-menu-white">
+              <li><a class="dropdown-item" href="PilotCourses.html">Pilot Courses</a></li>
+               <li><a class="dropdown-item" href="CabinCrewPilot.html">Cabin Crew Courses</a></li> 
+              <li><a class="dropdown-item" href="CadetPilotProgram.html">Cadet Pilot Programs</a></li>
+            </ul>
+          </li>
+-->
+          <!-- <li class="nav-item"><a href="Resources.html"><button type="button"
+                class="btn btn-sm btn-light">Resources</button></a></li>
+          <li class="nav-item px-2"><a href="Admission.html"><button type="button"
+                class="btn btn-sm btn-light">Admission</button></a></li> -->
+          <li class="nav-item"><a href="Aboutus.html"><button type="button" class="btn btn-sm btn-light"><strong>About
+                Us</strong></button></a></li>
+
+          <li class="nav-item px-2"><a href="Contactus.html"><button type="button" class="btn btn-sm btn-light"><strong>Contact</strong></button></a></li>
+
+
+        </ul>
+      </header>
+    </div>
+  </div>
+
+
+  <div class="container-fluid " style="padding-top: 75px;">
+    <div class="card border-0">
+      <img src="./images/banner6.png" class="w-100 h-25 rounded-3 card-img" alt="...">
+
+
+      <!-- <div class="card-img-overlay">
+                
+              <h2 class="card-title text-dark text-center pt-2">The Engine is the Heart of an Airplane </h2>
+              <h2 class="card-title text-dark text-center pt-1">But the Pilot is its soul</h2>
+            
+              <h2 class="card-text text-white text-center" style="padding-top: 180px;">Chase Your Dreams With Your Hardwork</h2>
+              </div> -->
+    </div>
+  </div>
+
+  
+
+
+  <div class="container px-2 py-3">
+
+    <div class="container my-3">
+      <div class="row">
+
+        <div class="col-6">
+    <div class="card mb-3 shadow-success" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-5">
+            <img src="./images/p9c.png" class="img-fluid rounded-start" alt="...">
+          </div>
+          <div class="col-md-7">
+            <div class="card-body">
+              <h5 class="card-title" style="color: #1b4332;">Mix Fruits Detox Water</h5>
+              <p class="card-text">
+                Wash and chop a mix of fresh fruits like apple and grapes. Add them to a bottle of clean water and let it infuse for a few hours in the refrigerator. Shake lightly before drinking for a refreshing, naturally flavored detox water.
+              </p>
+              
+            <a href="#" class="btn btn text-white col-12" style="background-color: #1b4332;">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+        </div>
+        <div class="col-6">
+          <div class="card mb-3 shadow-success" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-5">
+                <img src="./images/p11c.png" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-7">
+                <div class="card-body">
+                  <h5 class="card-title" style="color: #1b4332;">Alkaline Water</h5>
+                  <p class="card-text">
+                    Add a few drops of fresh lemon juice and a pinch of baking soda to a bottle of clean, filtered water. Shake well until fully dissolved and let it sit for a minute. Drink fresh for a lightly alkaline, refreshing hydration boost.
+                  </p>
+                  
+            <a href="#" class="btn btn text-white col-12" style="background-color: #1b4332;">Order Now</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    
+
+    <div class="alert" style="background-color: #4f772d" role="alert">
+      <h2 class="pb-1 text-center text-white">Freshly.Fit Cold Pressed Collection</h2>
+    </div>  
+
+    <div class="row">
+
+      <div class="col-sm-3">
+        <div class="card rounded-4 my-3" style="width: 16rem;">
+          <img src="./images/p2c.png" class="card-img-top p-2 rounded-4" alt="...">
+          <div class="card-body pt-0">
+            <p class="card-text mb-0">Mosambi Juice (300 ml)</p>
+            <div class="row">
+              <div class="col-6">
+                <p class="mt-1"><strong class="fs-bold">Rs. 100.00</strong></p>
+              </div>
+              <div class="col-6">
+                <p class="float-end">4.5 <i class="bi bi-star-half text-warning"></i></p>
+              </div>
+            </div>
+            <a href="#" class="btn btn text-white col-12" style="background-color: #1b4332;">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+
+        <div class="card rounded-4 my-3" style="width: 16rem;">
+          <img src="./images/p1c.png" class="card-img-top p-2 rounded-4" alt="...">
+          <div class="card-body pt-0">
+            <p class="card-text mb-0">Coconut Water (300 ml)</p>
+            <div class="row">
+              <div class="col-6">
+                <p class="mt-1"><strong class="fs-bold">Rs. 100.00</strong></p>
+              </div>
+              <div class="col-6">
+                <p class="float-end">4.5 <i class="bi bi-star-half text-warning"></i></p>
+              </div>
+            </div>
+            <a href="#" class="btn btn text-white col-12" style="background-color: #1b4332;">Order Now</a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card rounded-4 my-3" style="width: 16rem;">
+          <img src="./images/p3c.png" class="card-img-top p-2 rounded-4" alt="...">
+          <div class="card-body pt-0">
+            <p class="card-text mb-0">Pupaya Juice (300 ml)</p>
+            <div class="row">
+              <div class="col-6">
+                <p class="mt-1"><strong class="fs-bold">Rs. 100.00</strong></p>
+              </div>
+              <div class="col-6">
+                <p class="float-end">4.5 <i class="bi bi-star-half text-warning"></i></p>
+              </div>
+            </div>
+            <a href="#" class="btn btn text-white col-12" style="background-color: #1b4332;">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card rounded-4 my-3" style="width: 16rem;">
+          <img src="./images/p4c.png" class="card-img-top p-2 rounded-4" alt="...">
+          <div class="card-body pt-0">
+            <p class="card-text mb-0">Pineapple Juice (300 ml)</p>
+            <div class="row">
+              <div class="col-6">
+                <p class="mt-1"><strong class="fs-bold">Rs. 100.00</strong></p>
+              </div>
+              <div class="col-6">
+                <p class="float-end">4.5 <i class="bi bi-star-half text-warning"></i></p>
+              </div>
+            </div>
+            <a href="#" class="btn btn text-white col-12" style="background-color: #1b4332;">Order Now</a>
+          </div>
+        </div>
+      </div> 
+
+    </div>
+
+    <div class="row">
+      <div class="col-sm-3">
+
+        <div class="card rounded-4 my-3" style="width: 16rem;">
+          <img src="./images/p5c.png" class="card-img-top p-2 rounded-4" alt="...">
+          <div class="card-body pt-0">
+            <p class="card-text mb-0">Watermelon Juice (300 ml)</p>
+            <div class="row">
+              <div class="col-6">
+                <p class="mt-1"><strong class="fs-bold">Rs. 100.00</strong></p>
+              </div>
+              <div class="col-6">
+                <p class="float-end">4.5 <i class="bi bi-star-half text-warning"></i></p>
+              </div>
+            </div>
+            <a href="#" class="btn btn text-white col-12" style="background-color: #1b4332;">Order Now</a>
+          </div>
+        </div>
+
+      </div>
+
+       <div class="col-sm-3">
+        <div class="card rounded-4 my-3" style="width: 16rem;">
+          <img src="./images/p6c.png" class="card-img-top p-2 rounded-4" alt="...">
+          <div class="card-body pt-0">
+            <p class="card-text mb-0">Bael Juice (300 ml)</p>
+            <div class="row">
+              <div class="col-6">
+                <p class="mt-1"><strong class="fs-bold">Rs. 100.00</strong></p>
+              </div>
+              <div class="col-6">
+                <p class="float-end">4.5 <i class="bi bi-star-half text-warning"></i></p>
+              </div>
+            </div>
+            <a href="#" class="btn btn text-white col-12" style="background-color: #1b4332;">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card rounded-4 my-3" style="width: 16rem;">
+          <img src="./images/p7c.png" class="card-img-top p-2 rounded-4" alt="...">
+          <div class="card-body pt-0">
+            <p class="card-text mb-0">Mango Juice (300 ml)</p>
+            <div class="row">
+              <div class="col-6">
+                <p class="mt-1"><strong class="fs-bold">Rs. 100.00</strong></p>
+              </div>
+              <div class="col-6">
+                <p class="float-end">4.5 <i class="bi bi-star-half text-warning"></i></p>
+              </div>
+            </div>
+            <a href="#" class="btn btn text-white col-12" style="background-color: #1b4332;">Order Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card rounded-4 my-3" style="width: 16rem;">
+          <img src="./images/p8c.png" class="card-img-top p-2 rounded-4" alt="...">
+          <div class="card-body pt-0">
+            <p class="card-text mb-0">ABC Juice (300 ml)</p>
+            <div class="row">
+              <div class="col-6">
+                <p class="mt-1"><strong class="fs-bold">Rs. 100.00</strong></p>
+              </div>
+              <div class="col-6">
+                <p class="float-end">4.5 <i class="bi bi-star-half text-warning"></i></p>
+              </div>
+            </div>
+            <a href="#" class="btn btn text-white col-12" style="background-color: #1b4332;">Order Now</a>
+          </div>
+        </div>
+      </div> 
+
+    </div>
+  </div>
+
+  <div class="container pt-2 pb-3">   
+    <div class="alert" style="background-color: #4f772d" role="alert">
+
+    <div class="row text-white">
+      <div class="col-3 text-center">
+        <i class="bi bi-bar-chart-fill fs-3"></i>
+        <p>1+</p>
+        <h5>Years of Experience</h5>
+      </div>
+      <div class="col-3 text-center">
+        <i class="bi bi-cup-straw fs-3"></i>
+        <p>10+</p>
+        <h5>Juices in Our Menu</h5>
+      </div>
+      <div class="col-3 text-center">
+        <i class="bi bi-person-fill fs-3"></i>
+        <p>500+</p>
+        <h5>Happy Customer</h5>
+      </div>
+      <div class="col-3 text-center">
+        <i class="bi bi-person-badge-fill fs-3"></i>
+        <p>50+</p>
+        <h5>Team Members</h5>
+      </div>
+    </div> 
+  </div>
+</div>  
+
+
+  <div class="container mb-5 ">
+    <div class="card border-0">
+      <img src="./images/banner4.png" class="shadow-md rounded-3 card-img " alt="...">
+
+    </div>
+  </div>
+
+  
+ 
+
+  <div class="container">   
+    
+    <div class="alert" style="background-color: #4f772d" role="alert">
+      <h2 class="pb-1 text-center text-white">Meet Our Happy Customers</h2>
+    </div>  
+
+    <div class="row">
+
+      <div class="col-sm-3">
+        <!-- caf0f8 -->
+          
+        <div class="card rounded-4 my-3" style="width: 16rem; background-color: #ffffe7;">
+          <!-- <img src="./images/p2c.png" class="card-img-top p-2 rounded-4" alt="..."> -->
+          <div class="row">
+            <div class="col-4 m-2">
+              
+              <img src="./images/t1.jpg" class="img-fluid rounded-circle shadow" alt="...">
+            </div>
+            <div class="col-7">
+              <h5 class="pt-4">Anna Smith</h5>
+            </div>
+          </div>
+          <div class="card-body pt-0">
+            <p class="card-text mb-0">"I traded my afternoon coffee for the 'Green Boost' and I’ve never felt better. No caffeine crash, just pure, natural energy that keeps me focused through my workouts. You can really taste the quality in every sip!"</p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        
+        <div class="card rounded-4 my-3" style="width: 16rem; background-color: #e6fafe;">
+          <!-- <img src="./images/p2c.png" class="card-img-top p-2 rounded-4" alt="..."> -->
+          <div class="row">
+            <div class="col-4 m-2">
+              
+              <img src="./images/t2.jpg" class="img-fluid rounded-circle shadow" alt="...">
+            </div>
+            <div class="col-7">
+              <h5 class="pt-4">Michael Brown</h5>
+            </div>
+          </div>
+          <div class="card-body pt-0">
+            <p class="card-text mb-0">
+              "As a busy professional, getting my daily serving of greens was always a struggle. The juices are delivered cold, taste incredibly fresh, and I’ve noticed a huge difference in my skin and digestion."
+            </p>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card rounded-4 my-3" style="width: 16rem; background-color: #ffe5ec;">
+          <!-- <img src="./images/p2c.png" class="card-img-top p-2 rounded-4" alt="..."> -->
+          <div class="row">
+            <div class="col-4 m-2">
+              
+              <img src="./images/t3.jpg" class="img-fluid rounded-circle shadow" alt="...">
+            </div>
+            <div class="col-7">
+              <h5 class="pt-4">Sarah Johnson</h5>
+            </div>
+          </div>
+          <div class="card-body pt-0">
+            <p class="card-text mb-0">
+              "I was skeptical about 'detox' juices tasting good, but the Berry Blast is a game changer! It’s perfectly sweet without any added sugar. It’s the first thing I reach for in the morning now."
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="card rounded-4 my-3" style="width: 16rem; background-color: #fef2e1;">
+          <!-- <img src="./images/p2c.png" class="card-img-top p-2 rounded-4" alt="..."> -->
+          <div class="row">
+            <div class="col-4 m-2">
+              
+              <img src="./images/t4.jpg" class="img-fluid rounded-circle shadow" alt="...">
+            </div>
+            <div class="col-7">
+              <h5 class="pt-4">David Lee</h5>
+            </div>
+          </div>
+          <div class="card-body pt-0">
+            <p class="card-text mb-0">
+              "You can tell these aren't your typical grocery store juices. The cold-pressed difference is real—the colors are vibrant and the flavors are intense. Freshly.Fit is officially my new favorite healthy habit."
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+
+
+  <!-- <div class="container mb-5">
+    <h2 class="text-center py-2" style="color: rgb(135, 87, 87);">Why you Choose TRUE Avaitor Academy ?</h2>
+    <p class="text-center fs-5">We provide a premium educational experience that prepares you for a career in aviation,
+      not just a license.</p>
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="card shadow-primary zoom" style="width: 16rem; height: 15rem;">
+          <div class="card-body mt-3">
+            <h1 class="card-title text-center "><i class="bi bi-bar-chart-line-fill"></i></h1>
+            <h5 class="card-title text-center "> Success Rate 98 %</h5>
+            <p class="text-center">We provide a premium educational experience that prepares you for a career in
+              aviation, not just a license.</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card shadow-primary zoom" style="width: 16rem; height: 15rem;">
+          <div class="card-body mt-3">
+            <h1 class="card-title text-center"><i class="bi bi-airplane"></i></h1>
+            <h5 class="card-title text-center">Pilots Trained +100</h5>
+            <p class="text-center">Train on glass-cockpit aircraft equipped with the latest Garmin avionics for superior
+              situational awareness.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card shadow-primary zoom" style="width: 16rem; height: 15rem;">
+          <div class="card-body mt-3">
+            <h1 class="card-title text-center"><i class="bi bi-briefcase"></i></h1>
+            <h5 class="card-title text-center">Placement +200</h5>
+            <p class="text-center">Our direct partnerships with major regional airlines ensure you have a clear pathway
+              to the captain's seat.</p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-3">
+        <div class="card shadow-primary zoom" style="width: 16rem; height: 15rem;">
+          <div class="card-body mt-3">
+            <h1 class="card-title text-center"><i class="bi bi-person-video3"></i></h1>
+            <h5 class="card-title text-center">Expert Instructor +20</h5>
+            <p class="text-center">Learn from seasoned pilots with thousands
+              of hours of flight time in both general aviation and airline operations.</p>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div> -->
+
+
+  <div class="container mt-4 mb-5 rounded-3" style="background-color:#4f772d">
+    <h2 class="text-center py-4 text-white"><strong> Frequently Asked Questions</strong></h2>
+
+    <div class="row" style="display: flex;
+    flex-direction: row;
+    justify-content: center;">
+      <div class="col-11">
+        <div class="accordion pb-4" id="accordionExample">
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                What are the health benefits of cold-pressed juice compared to regular juice?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>
+                  This is a great place to explain that cold-pressing preserves more vitamins, minerals, and enzymes by avoiding heat.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item my-2">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Are your juices sugar-free or do they contain added sweeteners?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>
+                  Customers are often health-conscious and want to know if the sweetness comes naturally from the fruit or from additives.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Can I use your juices as a meal replacement?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>
+                  This allows you to give responsible health advice while suggesting specific nutrient-dense options from your collection.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item my-2">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                Are these juices safe for people with specific allergies (e.g., nuts or gluten)?
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Essential for safety and transparency regarding your facility and ingredients.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                How long do the juices stay fresh, and how should I store them?
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Since fresh juice has a shorter shelf life than processed versions, customers need clear storage instructions.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item my-2">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                Why does my juice look separated? Is it still safe to drink?
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Explain that natural juice without stabilizers will separate and just needs a quick shake.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                Do you use organic produce in all of your "Freshly.Fit" blends?
+              </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>This reinforces your brand's commitment to quality and "purity".</p>
+
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item my-2">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                How do you handle shipping to ensure the juice stays cold?
+              </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <p>Addressing the logistics of temperature-controlled packaging helps ease concerns about food safety during delivery.</p>
+                
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- <div class="col-5">
+        <div class="card bg-light border-0">
+
+
+          <img src="https://ecommercehtml.com/assets/images/faq-img.svg" class="card-img" alt="">
+
+        </div>
+
+      </div> -->
+    </div>
+
+  </div>
+
+  <!-- 
+  <div class="container rounded-4 shadow-lg py-4 my-5">
+    <h1 class="text-center my-3" style="color: rgb(135, 87, 87);">Start Your Pilot Journey Today</h1>
+
+    <hr>
+
+    <div class="row">
+        <div class="col-md-6 col-12">
+
+          <div class="card border-none text-center h-100 shadow-primary" style="background-color: #ffffff;">
+            <div class="card-body">
+              <h2>Contact Us</h2>
+              <p class="card-text">How can we Help?</p>
+
+                <div class="">
+                    <p class="mb-0"><strong><i class="bi bi-telephone"></i> Phone</strong></p>
+                    <p class="mb-0">+919256852466</p>
+                </div>
+           
+                <div class="py-3">
+                    <p class="mb-0"><strong><i class="bi bi-envelope"></i> Email Address</strong></p>
+                    <p class="mb-0">info.taa@gmail.com</p>
+                </div>
+            
+                <div class="">
+                    <p class="mb-0"><strong><i class="bi bi-building"></i> Address</strong></p>
+                    <p class="mb-0">Plot No.38, Chopra Farms, Mansarovar</p>
+                    <p class="mb-0">Jaipur - (Rajasthan)</p>
+                </div>
+
+
+            </div>
+          </div>
+            
+        </div>
+
+        <div class="col-md-6 col-12">
+            <h2 class="mb-4 text-center">Send Your Message</h2>
+            <form>
+                <div class="mb-2 form-floating">
+                    <input type="text" class="form-control" id="name" placeholder="Enter Full Name">
+                    <label for="name" class="form-label">Full Name</label>
+                </div>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="mb-2 form-floating">
+                      <input type="email" class="form-control" id="email" placeholder="Enter Your Email Address">
+                      <label for="email" class="form-label">Email Address</label>
+                      
+                  </div>
+                  
+                  </div>
+                  <div class="col-6">
+                    <div class="mb-2 form-floating">
+                      <input type="text" class="form-control" id="phone" placeholder="Enter Phone Number">
+                      <label for="phone" class="form-label">Phone Number</label>
+                      
+                  </div>
+                  </div>
+                </div>
+                
+                <div class="mb-2 form-floating">
+                    <textarea type="text" class="form-control" id="message" rows="4" placeholder="Enter Your Message"></textarea>
+                    <label for="message" class="form-label">Message</label>
+                    
+                </div>
+                <button type="submit" class="btn w-100 text-white my-2" style="background-color:#01497c">Send</button>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+ -->
+
+
+<div class="social-icons-container">
+
+    <div class="card p-1 position-absolute" style="background-color: #4f772d">
+    <div class="row col-1">
+      <div class="col-3 text-center"><button class="btn btn-outline-light" href="#"><i class="bi bi-instagram"></i></button></div>
+      <div class="col-3 text-center my-1"><button class="btn btn-outline-light"><i class="bi bi-whatsapp"></i></button></div>
+      <div class="col-3 text-center"><button class="btn btn-outline-light"><i class="bi bi-linkedin"></i></button></div>
+      <div class="col-3 text-center my-1"><button class="btn btn-outline-light"><i class="bi bi-youtube"></i></button></div>
+    </div>
+  </div>
+  </div> 
+
+
+  <div class="container-fluid py-3" style="background-color: #4f772d">
+    <div class="row py-4">
+      <div class="col-lg-3 text-center text-white">
+        <h6 style="color: #ffb3c6">Freshly.Fit<i class="bi bi-cup-straw"></i></h6>
+        <p class="mb-0">Serving Fresh Juice</p>
+        <div class="row mt-0">
+          <div class="col-3 text-center"><i class="bi bi-instagram"></i></div>
+          <div class="col-3 text-center"><i class="bi bi-whatsapp"></i></div>
+          <div class="col-3 text-center"><i class="bi bi-linkedin"></i></div>
+          <div class="col-3 text-center"><i class="bi bi-youtube"></i></div>
+        </div>
+      </div>
+
+      <div class="col-lg-3 text-center">
+        <h6 style="color: #ffb3c6" class=" ms-5">Services</h6>
+        <ul style="list-style-type: none;">
+          <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Cash On Delivery</a></li>
+          <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Free Home Delivery</a> </li>
+          <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Contact Us</a> </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-3 text-center">
+        <h6 style="color: #ffb3c6" class="ms-5">Juice</h6>
+        <ul style="list-style-type: none;">
+          <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Apple</a> </li>
+          <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Banana</a> </li>
+          <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Beatroot</a> </li>
+          <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Mosambi</a> </li>
+          <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Coconut</a> </li>
+          <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Pineapple</a> </li>
+          <li class="ms-3"> <a class="text-white" href="#0" style="text-decoration: none;">Pupaya</a> </li>
+          
+
+        </ul>
+      </div>
+
+      <div class="col-lg-3 text-center text-white">
+        <h6 style="color: #ffb3c6">Contact</h6>
+        <div class="py-1">
+          <p class="mb-0"><i class="bi bi-telephone"></i> +917877605886</p>
+        </div>
+
+        <div class="py-1">
+          <p class="mb-0"><i class="bi bi-envelope"></i> freshly.fit@gmail.com</p>
+        </div>
+
+        
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
+
+</body>
+
+</html>
